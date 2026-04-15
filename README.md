@@ -48,3 +48,13 @@ bool twoSum(vector<int>& arr, int target) {
 }
 
 ```
+
+
+#  🧪 Trace Example
+Input: arr = [0, -1, 2, -3, 1], target = -2
+
+Sorted Array: [-3, -1, 0, 1, 2]
+
+Step 1: st at -3, end at 2. Sum = -1. (-1 > -2), so end--.
+
+Step 2: st at -3, end at 1. Sum = -2. (Match!)
